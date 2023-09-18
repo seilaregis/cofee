@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+body{
+    background-color: #FAFAFA;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: 'baloo 2', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+#titulocapa{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+.top {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 32px;
+    padding-inline: 160px;
+}
+#carrinho {
+    background-color: #F1E9C9;
+    padding: 8px;
+    border-radius: 6px;
+    display:flex;
+}
+#cantodireita {
+    display:flex;
+    gap: 12px;
+}
+#linkcidade {
+    display:flex;
+    align-items:center;
+    background-color: #EBE5F9;
+    color: #4B2995;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 8px;
+}
+main{
+    padding-inline: 160px;
+}
+.capa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-block: 94px;
+    gap: 5%;
+}
+
+#textcapa{
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding-top: 16px;
+}
+#imgcapa {
+    width: 40%;
+}
+#capaesquerda {
+    width: 55%;
+}
+#carrinhocapa {
+    padding: 8px;
+    border-radius: 1000px;
+    background-color: #C47F17;
+}
+#textoicons {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+#lineitens{
+    display: flex;
+    align-items: center;
+    width: 231px;
+    gap: 12px;
+    padding: 14px 0px;
+}
+#caixacapa {
+    padding: 8px;
+    border-radius: 1000px;
+    background-color: #574F4D;
+}
+#lineitens2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+}
+#relogiocapa {
+    padding: 8px;
+    border-radius: 1000px;
+    background-color: #DBAC2C;
+}
+#cafecapa {
+    padding: 8px;
+    border-radius: 1000px;
+    background-color: #8047F8;
+}
+#icons{
+    padding-top: 74px;
+    justify-content: space-between;
+    align-items: center;
+}
+#nossoscafes{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 41.6px */
+}
+.catalogo{
+}
+#linhacatalogo{
+    display: flex;
+    justify-content: space-between;
+}
+#itemcatalogo{
+    width: 256px;
+    height: 310px;
+    flex-shrink: 0; 
+    border-radius: 6px 36px;
+    background: var(--base-card, #F3F2F2);
+    margin-top: 20px;
+    position:relative;
+}
+#itemcatalogo img{
+    position: absolute;
+    top:-20px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+#nomecafe{
+    text-align: center;
+    /* Title/Title S */
+    font-family: Baloo 2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 26px */
+}
+#tipocafediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tipocafe{
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 13px */
+    color: #C47F17;
+    padding: 4px 8px;
+    border-radius: 100px;
+    background-color: #F1E9C9;
+    margin-top: 116px;
+    margin-bottom: 20px;
+    margin-inline: 8px;
+    width: 65px;
+    text-align: center;
+}
+#desccafe{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: #8D8686;
+    text-align: center;
+    width: 216px;
+    margin-inline: auto;
+    margin-top: 8px;
+}
+#partebaixaitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 24px;
+    margin-top: 36px;
+}
+#valor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 67px;
+}
+#rsvalor{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color:  #574F4D;
+}
+#numerovalor{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    color:  #574F4D;
+}
