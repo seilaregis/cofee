@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap");
+
+body {
+  background-color: #fafafa;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-family: "baloo 2", sans-serif;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 32px;
+    padding-inline: 160px;
+  }
+  
+  #carrinho {
+    background-color: #f1e9c9;
+    padding: 8px;
+    border-radius: 6px;
+    display: flex;
+  }
+  
+  #cantodireita {
+    display: flex;
+    gap: 12px;
+  }
+  
+  #linkcidade {
+    display: flex;
+    align-items: center;
+    background-color: #ebe5f9;
+    color: #4b2995;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 8px;
+  }
+
+ #csp {
+color: var(--base-subtitle, #403937);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+ }
+ #descrientrega {
+display: flex;
+align-items:  ;
+ }
